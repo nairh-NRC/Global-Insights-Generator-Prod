@@ -245,7 +245,7 @@
   align-items: flex-start;
   padding: 16px 16px;
   gap: 8px;
-  background: #ffffff;
+  background: #d7e3f0;
   box-shadow:
     0px 2px 4px rgba(0, 0, 0, 0.14),
     0px 0px 2px rgba(0, 0, 0, 0.12);
@@ -254,7 +254,9 @@
   order: 0;
   align-self: stretch;
   flex-grow: 0.3;
-  max-width: 30%;
+  width: 30%;
+  resize: horizontal;
+  overflow: auto;
   overflow-y: scroll;
   max-height: calc(100vh - 100px);
 }
@@ -265,7 +267,7 @@
 
 .citationPanelHeader {
   font-style: normal;
-  font-weight: 600;
+  font-weight: 900;
   font-size: 18px;
   line-height: 24px;
   color: #000000;
@@ -287,7 +289,7 @@
 
 .citationPanelTitle {
   font-style: normal;
-  font-weight: 600;
+  font-weight: 900;
   font-size: 16px;
   line-height: 22px;
   color: #323130;
@@ -302,7 +304,8 @@
 
 .citationPanelContent {
   font-style: normal;
-  font-weight: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
   font-size: 14px;
   line-height: 20px;
   color: #000000;
